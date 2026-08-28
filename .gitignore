@@ -1,20 +1,22 @@
 # Java / Maven
-target/
+backend/target/
+backend/.idea/
+backend/*.iml
+backend/.mvn/wrapper/maven-wrapper.jar
 
-# Node
-node_modules/
-dist/
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
 
-# Environment / secrets
-.env
-.env.*
-!.env.example
-
-# Local Spring configuration
-application-local.yml
+# Env / secrets
+**/.env
+**/application-local.yml
+**/application-local.properties
 
 # IDE
 .idea/
+*.iml
 .vscode/
 
 # OS
